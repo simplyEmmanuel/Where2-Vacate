@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Where2 Vacate professional web design" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" shrink-to-fit="no" />
+    <meta
+      name="keywords"
+      content="web design, Where2 web design, professional vacation website"
+    />
+    <meta name="author" content="Emmanuel Ikekwere" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap-reboot.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>Where2 Vacate | Contact Us</title>
+  </head>
+
+  <body id="contact-us">
+    <!-- Section: The Header -->
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>
+            <a href="index.html"
+              ><span class="highlights">Where2</span> Vacate</a
+            >
+          </h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+              <a href="destination.html">Popular Places</a>
+            </li>
+            <li><a href="gallery.html"> Gallery</a></li>
+            <li><a href="contact.html" class="active"> Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container-2">
+      <h1 class="con-brand"><span>Registration </span> | Sign Up Form</h1>
+      <div class="con-wrapper animated bounceInLeft">
+        <div class="company-info">
+          <h3>Where2 Vacate</h3>
+          <ul>
+            <li>
+              <i class="fa fa-road"></i> 73 Skyview Street, Calabar, Nigeria
+            </li>
+            <li><i class="fa fa-phone"></i> +234(0) 706 1268 884</li>
+            <li><i class="fa fa-envelope"></i> Where2_Vacate@infomail.com</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h3>Email Us</h3>
+          <div class="alert">Your message is successful!</div>
+          <form id="contactForm" method="POST" action="contactFormHandler.php">
+            <p>
+              <label for="">Name</label>
+              <input type="text" name="name" id="name" required />
+            </p>
+            <p>
+              <label for="">Location</label>
+              <input type="text" name="location" id="location" />
+            </p>
+            <p>
+              <label for="">Email Address</label>
+              <input type="email" name="email" id="email" required />
+            </p>
+            <p>
+              <label for="">Phone Number</label>
+              <input type="text" name="phone" id="phone" />
+            </p>
+            <p class="full">
+              <label for="">Message</label>
+              <textarea name="message" rows="5" id="message"></textarea>
+            </p>
+            <p class="full">
+              <button type="submit" name="submit">Submit</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
+    <script src="Javascript/main.js"></script>
+  </body>
+</html>
